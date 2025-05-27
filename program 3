@@ -1,7 +1,7 @@
 create database employee;
 use employee;
 
-create table employee(E_ID int primary key, NAME varchar(50), AGE int, SALARY decimal(10,2));
+create table employee(E_ID int primary key, E_NAME varchar(50), AGE int, SALARY decimal(10,2));
 
 inset into employee(E_ID, E_NAME, AGE, SALARY)
 values(1,'krishna',20,75000.00),
